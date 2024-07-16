@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Black Ops One:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Black Han Sans:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="image-2-parent" id="frameContainer">
+      <img class="image-2-icon" alt="" src="./public/image-2@2x.png" />
+
+      <img class="image-3-icon" alt="" src="./public/image-3@2x.png" />
+
+      <img class="file-2-icon" alt="" src="./public/file-2@2x.png" />
+
+      <div class="frame-child"></div>
+      <div class="div">징버거</div>
+      <div class="div1">뭐래... 어휴 넌 평생 모솔로 살아라</div>
+    </div>
+
+    <script>
+      var frameContainer = document.getElementById("frameContainer");
+      if (frameContainer) {
+        frameContainer.addEventListener("click", function (e) {
+          window.location.href = "./frame1.html";
+        });
+      }
+    </script>
+  </body>
+</html>
